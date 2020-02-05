@@ -747,6 +747,11 @@ export class BrowserCodeReader {
       videoElement = videoSource;
     }
 
+    // Add class to <video> element when video stream becomes available
+    videoElement.addEventListener('loadeddata', function(e) {
+      videoElement.classList.add('ready');
+    });
+
     // Needed for iOS 11
     videoElement.setAttribute('autoplay', 'true');
     videoElement.setAttribute('muted', 'true');
