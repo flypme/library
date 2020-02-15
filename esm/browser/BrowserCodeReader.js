@@ -594,6 +594,7 @@ export class BrowserCodeReader {
         videoElement.setAttribute('autoplay', 'true');
         videoElement.setAttribute('muted', 'true');
         videoElement.setAttribute('playsinline', 'true');
+        videoElement.setAttribute('poster', 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQfkAg4ADRftYyztAAAAC0lEQVQI12P4zwAAAgEBAKrChTYAAAAldEVYdGRhdGU6Y3JlYXRlADIwMjAtMDItMTRUMDA6MTM6MjMrMDA6MDByy57kAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDIwLTAyLTE0VDAwOjEzOjIzKzAwOjAwA5YmWAAAAABJRU5ErkJggg==');
         return videoElement;
     }
     /**
